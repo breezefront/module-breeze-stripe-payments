@@ -5,6 +5,12 @@
         <referenceBlock name="breeze.js">
             <arguments>
                 <argument name="bundles" xsi:type="array">
+                    <item name="core" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="turbo" xsi:type="boolean">false</item>
+                            <item name="breeze-turbo" xsi:type="boolean">false</item>
+                        </item>
+                    </item>
                     <item name="default" xsi:type="array">
                         <item name="items" xsi:type="array">
                             <item name="StripeIntegration_Payments/js/stripe" xsi:type="array">
