@@ -1,8 +1,0 @@
-<?php
-    $blockTemplateFile = $block->getTemplateFile('StripeIntegration_Payments::express/product_button.phtml');
-?>
-<?= str_replace(
-    ['<script', "'StripeIntegration_Payments/js/stripe_payments_express']"],
-    ['<script data-breeze', "'StripeIntegration_Payments/js/stripe_payments_express', 'stripejs']"],
-    $block->fetchView($blockTemplateFile))
-?>
