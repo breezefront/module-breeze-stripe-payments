@@ -5,12 +5,6 @@
         <referenceBlock name="breeze.js">
             <arguments>
                 <argument name="bundles" xsi:type="array">
-                    <item name="core" xsi:type="array">
-                        <item name="items" xsi:type="array">
-                            <item name="turbo" xsi:type="boolean">false</item>
-                            <item name="breeze-turbo" xsi:type="boolean">false</item>
-                        </item>
-                    </item>
                     <item name="default" xsi:type="array">
                         <item name="items" xsi:type="array">
                             <item name="StripeIntegration_Payments/js/stripe" xsi:type="array">
@@ -18,6 +12,9 @@
                                 <item name="import" xsi:type="array">
                                     <item name="stripejs" xsi:type="string">https://js.stripe.com/v3/</item>
                                     <item name="parent" xsi:type="string">StripeIntegration_Payments/js/stripe</item>
+                                </item>
+                                <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
+                                    <param name="path">payment/stripe_payments/active</param>
                                 </item>
                                 <item name="load" xsi:type="array">
                                     <item name="onRequire" xsi:type="boolean">true</item>
