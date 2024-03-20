@@ -34,6 +34,22 @@
                                     <item name="onRequire" xsi:type="boolean">true</item>
                                 </item>
                             </item>
+
+                            <item name="StripeIntegration_Payments/js/view/ui_components/setup_element" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeStripePayments/js/ui_setup_element</item>
+                                <item name="import" xsi:type="array">
+                                    <item name="action-add" xsi:type="string">StripeIntegration_Payments/js/action/add-payment-method</item>
+                                    <item name="action-delete" xsi:type="string">StripeIntegration_Payments/js/action/delete-payment-method</item>
+                                    <item name="action-list" xsi:type="string">StripeIntegration_Payments/js/action/list-payment-methods</item>
+                                    <item name="actions-register" xsi:type="string">Swissup_BreezeStripePayments/js/actions-register</item>
+                                    <item name="messages" xsi:type="string">Magento_Ui/js/model/messages</item>
+                                    <item name="stripe" xsi:type="string">StripeIntegration_Payments/js/stripe</item>
+                                    <item name="parent" xsi:type="string">StripeIntegration_Payments/js/view/ui_components/setup_element</item>
+                                </item>
+                                <item name="load" xsi:type="array">
+                                    <item name="onRequire" xsi:type="boolean">true</item>
+                                </item>
+                            </item>
                         </item>
                     </item>
                 </argument>
