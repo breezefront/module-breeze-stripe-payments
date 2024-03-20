@@ -1,6 +1,7 @@
-# Stripe Connector for Adobe Commerce Breeze Frontend Integration
+# Stripe Payments Integration
 
-You can get the original module here: [Stripe for Magento 2](https://github.com/stripe/stripe-magento2-releases)
+This module integrates [stripe/module-payments](https://github.com/stripe/stripe-magento2-releases)
+module with Breeze Frontend.
 
 ## Installation
 
