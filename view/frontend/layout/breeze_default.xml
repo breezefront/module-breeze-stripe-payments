@@ -28,7 +28,7 @@
                                     <item name="parent" xsi:type="string">StripeIntegration_Payments/js/stripe_payments_express</item>
                                 </item>
                                 <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
-                                    <param name="path">payment/stripe_payments/express</param>
+                                    <param name="path">payment/stripe_payments_express/global_enabled</param>
                                 </item>
                                 <item name="load" xsi:type="array">
                                     <item name="onRequire" xsi:type="boolean">true</item>
