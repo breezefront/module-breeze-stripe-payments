@@ -2,6 +2,19 @@
     .catalog-product-view .payment-request-button {
         margin: 0;
     }
+    .breeze.stripe_payments-customer-subscriptions .stripe-subscription-edit.payment-method img.icon {
+        position: static;
+    }
+    .stripe-subscriptions {
+        overflow: visible !important;
+        td > a {
+            .breeze-link();
+        }
+        .stripe-payments {
+            display: flex;
+            align-items: center;
+        }
+    }
 }
 
 & when not (@critical) {
