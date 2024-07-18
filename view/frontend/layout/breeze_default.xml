@@ -12,9 +12,6 @@
                                 <item name="import" xsi:type="array">
                                     <item name="stripejs" xsi:type="string">https://js.stripe.com/v3/</item>
                                 </item>
-                                <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
-                                    <param name="path">payment/stripe_payments/active</param>
-                                </item>
                             </item>
 
                             <item name="StripeIntegration_Payments/js/stripe_payments_express" xsi:type="array">
@@ -52,9 +49,6 @@
                                     <item name="price-utils" xsi:type="string">Magento_Catalog/js/price-utils</item>
                                     <item name="totals" xsi:type="string">Magento_Checkout/js/model/totals</item>
                                     <item name="parent" xsi:type="string">StripeIntegration_Payments/js/view/checkout/summary/initial_fee</item>
-                                </item>
-                                <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
-                                    <param name="path">payment/stripe_payments/active</param>
                                 </item>
                             </item>
                         </item>
