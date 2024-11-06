@@ -15,12 +15,12 @@
                             </item>
 
                             <item name="StripeIntegration_Payments/js/stripe_payments_express" xsi:type="array">
-                                <item name="path" xsi:type="string">Swissup_BreezeStripePayments/js/stripe_payments_express</item>
+                                <item name="path" xsi:type="string">StripeIntegration_Payments/js/stripe_payments_express</item>
                                 <item name="import" xsi:type="array">
                                     <item name="stripe" xsi:type="string">StripeIntegration_Payments/js/stripe</item>
                                     <item name="url" xsi:type="string">mage/url</item>
                                     <item name="alert" xsi:type="string">Magento_Ui/js/modal/alert</item>
-                                    <item name="parent" xsi:type="string">StripeIntegration_Payments/js/stripe_payments_express</item>
+                                    <item name="mixin" xsi:type="string">Swissup_BreezeStripePayments/js/stripe_payments_express</item>
                                 </item>
                                 <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
                                     <param name="path">payment/stripe_payments_express/global_enabled</param>
